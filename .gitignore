@@ -1,3 +1,13 @@
+# User-defined directories
+tmp
+data/*
+!data/README.md
+model/*
+!model/README.md
+output/*
+!output/README.md
+
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
