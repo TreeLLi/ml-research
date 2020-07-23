@@ -1,0 +1,16 @@
+{
+    "model": {
+	"id": "integer PRIMARY KEY",
+	"status": "text",
+	"dataset": "text",
+	"lr": "real",
+	"optim": "text",
+	"batch_size": "integer"
+    },
+    "evaluation": {
+	"id": "integer PRIMARY KEY",
+	"dataset": "integer",
+	"metric": "text",
+	"value": "real"
+    }
+}
